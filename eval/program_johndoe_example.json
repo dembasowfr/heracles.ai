@@ -1,0 +1,346 @@
+
+{
+  "state": {
+    "user_profile": {
+      "name_surname": "John Doe",
+      "age": 30,
+      "gender": "male",
+      "height_cm": 180,
+      "weight_kg": 75,
+      "activity_level": "moderate",
+      "dietary_preferences": ["vegetarian"],
+      "food_allergies": ["shellfish"],
+      "health_conditions": ["no_known_conditions"],
+      "fitness_goals": ["lose_weight", "improve_cardio"],
+      "equipment_available": ["gym_access", "running_shoes"],
+      "preferred_workout_times": ["morning", "evening"],
+      "program_start_date": "2025-01-15",
+      "program_end_date": "2025-04-15"
+    },
+    "fitness_plan": {
+      "name": "12-Week Weight Loss Plan",
+      "description": "A comprehensive program to help you lose weight and improve your cardiovascular health.",
+      "duration_weeks": 12,
+      "workouts_per_week": 5,
+      "daily_workouts": [
+        {
+          "day": "Monday",
+          "exercises": [
+            {
+              "name": "Running",
+              "duration_minutes": 30,
+              "intensity": "moderate"
+            },
+            {
+              "name": "Strength Training",
+              "sets": 3,
+              "reps": 12,
+              "focus": "legs"
+            }
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "exercises": [
+            {
+              "name": "Cycling",
+              "duration_minutes": 45,
+              "intensity": "moderate"
+            }
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "exercises": [
+            {
+              "name": "Rest",
+              "duration_minutes": 0,
+              "intensity": "none"
+            }
+          ]
+        },
+        {
+          "day": "Thursday",
+          "exercises": [
+            {
+              "name": "Running",
+              "duration_minutes": 30,
+              "intensity": "moderate"
+            },
+            {
+              "name": "Strength Training",
+              "sets": 3,
+              "reps": 12,
+              "focus": "chest"
+            }
+          ]
+        },
+        {
+          "day": "Friday",
+          "exercises": [
+            {
+              "name": "Swimming",
+              "duration_minutes": 45,
+              "intensity": "moderate"
+            }
+          ]
+        },
+        {
+          "day": "Saturday",
+          "exercises": [
+            {
+              "name": "Hiking",
+              "duration_minutes": 60,
+              "intensity": "moderate"
+            }
+          ]
+        },
+        {
+          "day": "Sunday",
+          "exercises": [
+            {
+              "name": "Rest",
+              "duration_minutes": 0,
+              "intensity": "none"
+            }
+          ]
+        }
+      ]
+    },
+    "diet_plan": {
+      "name": "Vegetarian Weight Loss Diet",
+      "description": "A calorie-controlled vegetarian diet to support weight loss.",
+      "daily_calories": 1800,
+      "meals": [
+        {
+          "name": "Breakfast",
+          "time": "08:00",
+          "description": "Oatmeal with berries and nuts",
+          "calories": 350,
+          "macros": {
+            "protein": 15,
+            "carbs": 50,
+            "fat": 10
+          }
+        },
+        {
+          "name": "Lunch",
+          "time": "12:30",
+          "description": "Lentil soup with whole-wheat bread",
+          "calories": 450,
+          "macros": {
+            "protein": 20,
+            "carbs": 60,
+            "fat": 15
+          }
+        },
+        {
+          "name": "Dinner",
+          "time": "19:00",
+          "description": "Chickpea curry with brown rice",
+          "calories": 600,
+          "macros": {
+            "protein": 25,
+            "carbs": 70,
+            "fat": 20
+          }
+        },
+        {
+          "name": "Snack",
+          "time": "15:30",
+          "description": "Apple with almond butter",
+          "calories": 200,
+          "macros": {
+            "protein": 5,
+            "carbs": 25,
+            "fat": 10
+          }
+        },
+        {
+          "name": "Snack",
+          "time": "21:00",
+          "description": "Greek yogurt with fruit",
+          "calories": 200,
+          "macros": {
+            "protein": 15,
+            "carbs": 20,
+            "fat": 5
+          }
+        }
+      ],
+      "supplements": [
+        {
+          "name": "Multivitamin",
+          "time": "08:00",
+          "dosage": "1 tablet"
+        },
+        {
+          "name": "Omega-3",
+          "time": "19:00",
+          "dosage": "1 capsule"
+        }
+      ]
+    },
+    "progress": {
+      "start_date": "2024-01-15",
+      "current_date": "2024-02-20",
+      "weight_kg": [
+        {
+          "date": "2024-01-15",
+          "value": 75
+        },
+        {
+          "date": "2024-01-22",
+          "value": 74
+        },
+        {
+          "date": "2024-01-29",
+          "value": 73
+        },
+        {
+          "date": "2024-02-05",
+          "value": 72
+        },
+        {
+          "date": "2024-02-12",
+          "value": 71
+        },
+        {
+          "date": "2024-02-19",
+          "value": 70
+        }
+      ],
+      "body_fat_percentage": [
+        {
+          "date": "2024-01-15",
+          "value": 20
+        },
+        {
+          "date": "2024-02-15",
+          "value": 18
+        }
+      ],
+      "heart_rate": [
+        {
+          "date": "2024-01-15",
+          "value": 70
+        },
+        {
+          "date": "2024-02-15",
+          "value": 65
+        }
+      ],
+      "notes": [
+        {
+          "date": "2024-01-20",
+          "text": "Increased running distance by 1km."
+        },
+        {
+          "date": "2024-02-10",
+          "text": "Experiencing less fatigue during workouts."
+        }
+      ]
+    },
+    "workout_sessions": [
+      {
+        "date": "2024-02-19",
+        "type": "Running",
+        "duration_minutes": 35,
+        "intensity": "moderate",
+        "calories_burned": 300
+      },
+      {
+        "date": "2024-02-19",
+        "type": "Strength Training",
+        "focus": "legs",
+        "sets": 3,
+        "reps": 15,
+        "weight_kg": 50
+      },
+      {
+        "date": "2024-02-20",
+        "type": "Cycling",
+        "duration_minutes": 50,
+        "intensity": "moderate",
+        "calories_burned": 400
+      }
+    ],
+    "meals": [
+      {
+        "date": "2024-02-19",
+        "name": "Breakfast",
+        "time": "08:00",
+        "calories": 380
+      },
+      {
+        "date": "2024-02-19",
+        "name": "Lunch",
+        "time": "12:30",
+        "calories": 470
+      },
+      {
+        "date": "2024-02-19",
+        "name": "Dinner",
+        "time": "19:00",
+        "calories": 620
+      },
+      {
+        "date": "2024-02-20",
+        "name": "Breakfast",
+        "time": "08:15",
+        "calories": 360
+      }
+    ],
+    "supplements": [
+      {
+        "date": "2024-02-19",
+        "name": "Multivitamin",
+        "time": "08:00",
+        "dosage": "1 tablet"
+      },
+      {
+        "date": "2024-02-19",
+        "name": "Omega-3",
+        "time": "19:00",
+        "dosage": "1 capsule"
+      },
+      {
+        "date": "2024-02-20",
+        "name": "Multivitamin",
+        "time": "08:15",
+        "dosage": "1 tablet"
+      }
+    ],
+    "daily_schedule": {
+      "07:00": "Wake up, drink water",
+      "08:00": "Breakfast",
+      "09:00": "Morning workout",
+      "12:30": "Lunch",
+      "15:30": "Snack",
+      "18:00": "Evening workout (optional)",
+      "19:00": "Dinner",
+      "21:00": "Relax, prepare for bed",
+      "22:00": "Bedtime"
+    },
+    "metrics": {
+      "start_weight_kg": 75,
+      "end_weight_kg": 70,
+      "start_body_fat_percentage": 20,
+      "end_body_fat_percentage": 18,
+      "start_heart_rate": 70,
+      "end_heart_rate": 65
+    },
+    "current_workout": {
+      "name": "Strength Training",
+      "sets": 3,
+      "reps": 12,
+      "focus": "chest"
+    },
+    "current_meal": {
+      "name": "Breakfast",
+      "time": "08:15",
+      "description": "Oatmeal with berries and nuts",
+      "calories": 350
+    }
+  }
+}

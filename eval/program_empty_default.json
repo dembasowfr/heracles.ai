@@ -1,0 +1,39 @@
+{
+  "state": {
+    "user_profile": {
+      "name_surname": "",
+      "age": "",
+      "gender": "",
+      "height_cm": "",
+      "weight_kg": "",
+      "activity_level": "",
+      "dietary_preferences": [],
+      "fitness_preferences": [],
+      "food_allergies": [],
+      "health_conditions": [],
+      "fitness_goals": [],
+      "equipment_available": [],
+      "preferred_workout_times": [],
+      "program_start_date": "",
+      "program_end_date": "",
+      "fitness_level": ""
+    },
+    "fitness_plan": {},
+    "diet_plan": {},
+    "progress": {},
+    "workout_sessions": [],
+    "meals": [],
+    "supplements": [],
+    "daily_schedule": {},
+    "metrics": {
+      "start_weight_kg": "",
+      "end_weight_kg": "",
+      "start_body_fat_percentage": "",
+      "end_body_fat_percentage": "",
+      "start_heart_rate": "",
+      "end_heart_rate": ""
+    },
+    "current_workout": "",
+    "current_meal": ""
+  }
+}
