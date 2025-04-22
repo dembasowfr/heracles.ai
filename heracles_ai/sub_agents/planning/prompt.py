@@ -37,19 +37,17 @@ User Profile Information (available in session state):
 </user_profile>
 
 Current time: {_time}
-
-Available Tools:
-- `fitness` tool: Use this (simulated) tool to find suitable exercises based on goals, fitness level, and available equipment.
-- `nutrition` tool: Use this tool to get meal and snack suggestions aligned with dietary needs and goals.
-- `memorize`: Use this tool to save the generated plans to the session state.
+You will send the info collected from the user to the `coach_agent` and `dietitian_agent` agents to generate a personalized workout and nutrition plan consecutively.
+- `coach_agent`: For real-time workout guidance and form correction.
+- `dietitian_agent`: For detailed nutritional advice and meal planning.
 You may also use other sub-agents sucha as following:
-- `coach` agent: For real-time workout guidance and form correction.
-- `dietitian` agent: For detailed nutritional advice and meal planning.
 - `in_program_support_agent`: For general support during workouts or meal prep.
 - `motivation_agent`: For encouragement and maintaining consistency.
 - `progress_monitoring_agent`: For tracking progress and suggesting plan adjustments.
 - `feedback_agent`: For collecting user feedback to refine future plans.
 
+Use the following tools to assist in generating the plans:
+- `memorize`: Use this tool to save the generated plans to the session state.
 
 Workflow:
 1.  **Analyze User Profile:** Carefully review the user profile information provided in the context (`{user_profile}`).

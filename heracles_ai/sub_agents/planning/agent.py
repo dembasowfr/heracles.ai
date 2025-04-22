@@ -27,7 +27,7 @@ from . import prompt
 from heracles_ai.tools.memory import memorize  # Only import the specific tool needed
 from heracles_ai.sub_agents.coach.agent import coach_agent  # Import the actual fitness tool
 # from heracles_ai.sub_agents.dietitian.agent import dietitian_age  # Import the actual nutrition tool
-
+from heracles_ai.sub_agents.dietitian.agent import dietitian_agent  # Import the actual nutrition tool
 # TODO(b/336705178): Import actual tool instances once created
 # from heracles_ai.tools.conversion import metric_conversion_tool
 
@@ -40,6 +40,6 @@ planning_agent = Agent(
     tools=[
         memorize,  # Register the memorize tool
         AgentTool(agent=coach_agent),
-        # AgentTool(agent=dietitian_agent),
+        AgentTool(agent=dietitian_agent),
     ],
 )
