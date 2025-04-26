@@ -74,6 +74,9 @@ heracles_ai/
     ├── nutrition.py
     ├── search.py
     └── cmc.py
+├── agent.py
+├── prompt.py
+
 ```
 
 ---
