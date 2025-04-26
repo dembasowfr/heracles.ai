@@ -1,7 +1,9 @@
-
 # 📋 Heracles.AI — Your Personal Health and Fitness Coach
 
-This sample demonstrates the use of the **Agent Development Kit (ADK)** to deliver a new user experience for individuals seeking to improve their health and fitness.
+![Heracles.AI](general-architecture.png)
+
+Heracles.AI is a **multi-agent system** designed to assist users in achieving their health and fitness goals. It provides personalized coaching, nutrition advice, and progress tracking through a collaborative network of specialized agents.
+
 
 A cohort of specialized agents mimics the experience of having a personal health and fitness coach, guiding users through their wellness journey:
 
@@ -100,7 +102,7 @@ heracles_ai/
   Offers nutritional advice, meal planning, and dietary consultations.
 
 - **monitoring/monitoring_agent.py**  
-  S  Tracks user progress, identifies challenges, and suggests plan adjustments.
+  Tracks user progress, identifies challenges, and suggests plan adjustments.
 
 - **feedback/feedback_agent.py**  
   Collects feedback, improves future plans, ensures long-term engagement.
@@ -340,3 +342,17 @@ python deployment/deploy.py --create
 ```bash
 python deployment/deploy.py --quicktest --resource_id=your_agent_engine_id --user_input="Tell me a beginner workout."
 ```
+
+---
+
+## 🔮 Future Development
+
+This is an early version of Heracles.AI. We are actively working on enhancing its capabilities. Future improvements may include:
+
+- Integration with more fitness tracking APIs (e.g., wearables, fitness apps).
+- Expanded nutrition databases and API connections.
+- Persistent database storage for long-term user progress and history.
+- More sophisticated personalization algorithms.
+- Enhanced natural language understanding for more complex interactions.
+
+Stay tuned for updates!
