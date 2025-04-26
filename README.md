@@ -73,8 +73,7 @@ heracles_ai/
     ├── memory.py
     ├── nutrition.py
     ├── search.py
-    ├── agent.py
-    └── prompt.py
+    └── cmc.py
 ```
 
 ---
@@ -95,23 +94,12 @@ heracles_ai/
 - **dietitian/dietitian_agent.py**  
   Offers nutritional advice, meal planning, and dietary consultations.
 
-- **in_program/support_agent.py**  
-  Supports during workouts or meal prep, answers exercise and ingredient-related queries, offers motivation.
-
-- **motivation/motivation_agent.py**  
-  Sends motivational messages and helps users stay committed.
-
-- **progress_monitoring/monitoring_agent.py**  
-  Tracks user progress, identifies challenges, and suggests plan adjustments.
+- **monitoring/monitoring_agent.py**  
+  S  Tracks user progress, identifies challenges, and suggests plan adjustments.
 
 - **feedback/feedback_agent.py**  
   Collects feedback, improves future plans, ensures long-term engagement.
 
-- **pre_program/preparation_agent.py**  
-  Prepares assessments, equipment checklists, and grocery lists before starting a program.
-
-- **post_program/evaluation_agent.py**  
-  Reviews progress, gathers feedback, and plans future phases.
 
 ---
 
@@ -123,17 +111,8 @@ heracles_ai/
 - **tools/search.py**  
   Integrates with Google Search Grounding to retrieve fitness and health data.
 
-- **tools/food.py**  
-  Suggests healthy meals based on restrictions and goals.
-
 - **tools/exercise.py**  
   Manages exercise data, interfaces with exercise databases.
-
-- **tools/logging.py**  
-  Logs workouts, meals, and other metrics.
-
-- **tools/conversion.py**  
-  Converts units (e.g., weight, height, distance).
 
 - **tools/fitness.py**  
   Contains general fitness-related utilities.
@@ -141,9 +120,8 @@ heracles_ai/
 - **tools/nutrition.py**  
   Provides detailed nutrition logic and data.
 
-- **tools/agent.py & tools/prompt.py**  
-  Base classes and utilities for defining agents and managing prompts.
-
+- **tools/cmc.py**:
+  Utilize Miffin-St Jeor equation for calculating Basal Metabolic Rate (BMR) and Total Daily Energy Expenditure (TDEE).
 ---
 
 ### 📚 Shared Libraries
