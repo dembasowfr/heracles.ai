@@ -1,0 +1,183 @@
+<svg width="782pt" height="446pt" viewBox="0.00 0.00 782.02 446.14" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 442.14)">
+<polygon fill="#333537" stroke="none" points="-4,4 -4,-442.14 778.02,-442.14 778.02,4 -4,4"></polygon>
+<!-- root_agent -->
+<g id="node1" class="node">
+<title>root_agent</title>
+<ellipse fill="#0f5223" stroke="#0f5223" cx="64.4" cy="-210" rx="64.4" ry="18"></ellipse>
+<text text-anchor="middle" x="64.4" y="-205.8" font-family="Times,serif" font-size="14.00" fill="#cccccc">🤖 root_agent</text>
+</g>
+<!-- onboarding_agent -->
+<g id="node2" class="node">
+<title>onboarding_agent</title>
+<ellipse fill="none" stroke="#cccccc" cx="257.64" cy="-321" rx="92.83" ry="18"></ellipse>
+<text text-anchor="middle" x="257.64" y="-316.8" font-family="Times,serif" font-size="14.00" fill="#cccccc">🤖 onboarding_agent</text>
+</g>
+<!-- root_agent&#45;&gt;onboarding_agent -->
+<g id="edge4" class="edge">
+<title>root_agent-&gt;onboarding_agent</title>
+<path fill="none" stroke="#cccccc" d="M85.74,-227.21C105.16,-243.09 135.7,-266.61 164.81,-283 179.54,-291.3 196.45,-298.81 211.72,-304.92"></path>
+</g>
+<!-- memorize -->
+<g id="node3" class="node">
+<title>memorize</title>
+<path fill="none" stroke="#cccccc" d="M711.48,-228C711.48,-228 646.01,-228 646.01,-228 640.01,-228 634.01,-222 634.01,-216 634.01,-216 634.01,-204 634.01,-204 634.01,-198 640.01,-192 646.01,-192 646.01,-192 711.48,-192 711.48,-192 717.48,-192 723.48,-198 723.48,-204 723.48,-204 723.48,-216 723.48,-216 723.48,-222 717.48,-228 711.48,-228"></path>
+<text text-anchor="middle" x="678.74" y="-205.8" font-family="Times,serif" font-size="14.00" fill="#cccccc">🔧 memorize</text>
+</g>
+<!-- root_agent&#45;&gt;memorize -->
+<g id="edge20" class="edge">
+<title>root_agent-&gt;memorize</title>
+<path fill="none" stroke="#cccccc" d="M129.2,-210C253.87,-210 526.96,-210 633.72,-210"></path>
+</g>
+<!-- planning_agent -->
+<g id="node6" class="node">
+<title>planning_agent</title>
+<ellipse fill="none" stroke="#cccccc" cx="257.64" cy="-164" rx="82.64" ry="18"></ellipse>
+<text text-anchor="middle" x="257.64" y="-159.8" font-family="Times,serif" font-size="14.00" fill="#cccccc">🤖 planning_agent</text>
+</g>
+<!-- root_agent&#45;&gt;planning_agent -->
+<g id="edge8" class="edge">
+<title>root_agent-&gt;planning_agent</title>
+<path fill="none" stroke="#cccccc" d="M114.16,-198.27C140.6,-191.91 173.41,-184.02 200.87,-177.41"></path>
+</g>
+<!-- coach_agent -->
+<g id="node7" class="node">
+<title>coach_agent</title>
+<ellipse fill="none" stroke="#cccccc" cx="466.97" cy="-126" rx="71.36" ry="18"></ellipse>
+<text text-anchor="middle" x="466.97" y="-121.8" font-family="Times,serif" font-size="14.00" fill="#cccccc">🤖 coach_agent</text>
+</g>
+<!-- root_agent&#45;&gt;coach_agent -->
+<g id="edge11" class="edge">
+<title>root_agent-&gt;coach_agent</title>
+<path fill="none" stroke="#cccccc" d="M82.52,-192.31C100.94,-174.61 132.05,-148.4 164.81,-137 243.37,-109.65 340.52,-112.03 402.86,-117.76"></path>
+</g>
+<!-- dietitian_agent -->
+<g id="node8" class="node">
+<title>dietitian_agent</title>
+<ellipse fill="none" stroke="#cccccc" cx="466.97" cy="-72" rx="80.49" ry="18"></ellipse>
+<text text-anchor="middle" x="466.97" y="-67.8" font-family="Times,serif" font-size="14.00" fill="#cccccc">🤖 dietitian_agent</text>
+</g>
+<!-- root_agent&#45;&gt;dietitian_agent -->
+<g id="edge15" class="edge">
+<title>root_agent-&gt;dietitian_agent</title>
+<path fill="none" stroke="#cccccc" d="M77.42,-191.98C94.03,-168.69 126.37,-128.9 164.81,-110 234.8,-75.59 324.52,-68.26 387.76,-68.21"></path>
+</g>
+<!-- monitoring_agent -->
+<g id="node12" class="node">
+<title>monitoring_agent</title>
+<ellipse fill="none" stroke="#cccccc" cx="257.64" cy="-403" rx="91.77" ry="18"></ellipse>
+<text text-anchor="middle" x="257.64" y="-398.8" font-family="Times,serif" font-size="14.00" fill="#cccccc">🤖 monitoring_agent</text>
+</g>
+<!-- root_agent&#45;&gt;monitoring_agent -->
+<g id="edge17" class="edge">
+<title>root_agent-&gt;monitoring_agent</title>
+<path fill="none" stroke="#cccccc" d="M75.08,-227.89C90.95,-256.03 124.8,-311.24 164.81,-348 181.5,-363.34 203.14,-376.55 221.22,-386.18"></path>
+</g>
+<!-- feedback_agent -->
+<g id="node13" class="node">
+<title>feedback_agent</title>
+<ellipse fill="none" stroke="#cccccc" cx="257.64" cy="-256" rx="83.69" ry="18"></ellipse>
+<text text-anchor="middle" x="257.64" y="-251.8" font-family="Times,serif" font-size="14.00" fill="#cccccc">🤖 feedback_agent</text>
+</g>
+<!-- root_agent&#45;&gt;feedback_agent -->
+<g id="edge19" class="edge">
+<title>root_agent-&gt;feedback_agent</title>
+<path fill="none" stroke="#cccccc" d="M114.16,-221.73C140.49,-228.06 173.13,-235.91 200.53,-242.5"></path>
+</g>
+<!-- onboarding_agent&#45;&gt;memorize -->
+<g id="edge1" class="edge">
+<title>onboarding_agent-&gt;memorize</title>
+<path fill="none" stroke="#cccccc" d="M316.29,-306.7C374.67,-292.1 467.51,-268.59 547.46,-247 576.29,-239.21 608.58,-230.05 633.8,-222.79"></path>
+</g>
+<!-- memorize_list -->
+<g id="node4" class="node">
+<title>memorize_list</title>
+<path fill="none" stroke="#cccccc" d="M511.76,-404C511.76,-404 422.17,-404 422.17,-404 416.17,-404 410.17,-398 410.17,-392 410.17,-392 410.17,-380 410.17,-380 410.17,-374 416.17,-368 422.17,-368 422.17,-368 511.76,-368 511.76,-368 517.76,-368 523.76,-374 523.76,-380 523.76,-380 523.76,-392 523.76,-392 523.76,-398 517.76,-404 511.76,-404"></path>
+<text text-anchor="middle" x="466.97" y="-381.8" font-family="Times,serif" font-size="14.00" fill="#cccccc">🔧 memorize_list</text>
+</g>
+<!-- onboarding_agent&#45;&gt;memorize_list -->
+<g id="edge2" class="edge">
+<title>onboarding_agent-&gt;memorize_list</title>
+<path fill="none" stroke="#cccccc" d="M308.04,-336.49C338.7,-346.1 378.18,-358.48 410,-368.45"></path>
+</g>
+<!-- forget -->
+<g id="node5" class="node">
+<title>forget</title>
+<path fill="none" stroke="#cccccc" d="M488.43,-350C488.43,-350 445.5,-350 445.5,-350 439.5,-350 433.5,-344 433.5,-338 433.5,-338 433.5,-326 433.5,-326 433.5,-320 439.5,-314 445.5,-314 445.5,-314 488.43,-314 488.43,-314 494.43,-314 500.43,-320 500.43,-326 500.43,-326 500.43,-338 500.43,-338 500.43,-344 494.43,-350 488.43,-350"></path>
+<text text-anchor="middle" x="466.97" y="-327.8" font-family="Times,serif" font-size="14.00" fill="#cccccc">🔧 forget</text>
+</g>
+<!-- onboarding_agent&#45;&gt;forget -->
+<g id="edge3" class="edge">
+<title>onboarding_agent-&gt;forget</title>
+<path fill="none" stroke="#cccccc" d="M347.77,-325.73C378.06,-327.34 410.04,-329.03 433.09,-330.26"></path>
+</g>
+<!-- planning_agent&#45;&gt;memorize -->
+<g id="edge5" class="edge">
+<title>planning_agent-&gt;memorize</title>
+<path fill="none" stroke="#cccccc" d="M332.12,-172.07C419.34,-181.64 561.95,-197.29 633.65,-205.16"></path>
+</g>
+<!-- planning_agent&#45;&gt;coach_agent -->
+<g id="edge6" class="edge">
+<title>planning_agent-&gt;coach_agent</title>
+<path fill="none" stroke="#cccccc" d="M321.97,-152.39C349.48,-147.35 381.48,-141.49 408.31,-136.57"></path>
+</g>
+<!-- planning_agent&#45;&gt;dietitian_agent -->
+<g id="edge7" class="edge">
+<title>planning_agent-&gt;dietitian_agent</title>
+<path fill="none" stroke="#cccccc" d="M289.05,-146.98C314.59,-133.06 352.29,-113.41 386.47,-99 396.82,-94.64 408.13,-90.46 418.89,-86.75"></path>
+</g>
+<!-- coach_agent&#45;&gt;memorize -->
+<g id="edge9" class="edge">
+<title>coach_agent-&gt;memorize</title>
+<path fill="none" stroke="#cccccc" d="M506.44,-141.41C542.4,-155.81 596.05,-177.29 633.7,-192.37"></path>
+</g>
+<!-- fitness_tool -->
+<g id="node9" class="node">
+<title>fitness_tool</title>
+<path fill="none" stroke="#cccccc" d="M716.16,-144C716.16,-144 641.33,-144 641.33,-144 635.33,-144 629.33,-138 629.33,-132 629.33,-132 629.33,-120 629.33,-120 629.33,-114 635.33,-108 641.33,-108 641.33,-108 716.16,-108 716.16,-108 722.16,-108 728.16,-114 728.16,-120 728.16,-120 728.16,-132 728.16,-132 728.16,-138 722.16,-144 716.16,-144"></path>
+<text text-anchor="middle" x="678.74" y="-121.8" font-family="Times,serif" font-size="14.00" fill="#cccccc">🔧 fitness_tool</text>
+</g>
+<!-- coach_agent&#45;&gt;fitness_tool -->
+<g id="edge10" class="edge">
+<title>coach_agent-&gt;fitness_tool</title>
+<path fill="none" stroke="#cccccc" d="M538.69,-126C568.43,-126 602.28,-126 629.13,-126"></path>
+</g>
+<!-- dietitian_agent&#45;&gt;memorize -->
+<g id="edge13" class="edge">
+<title>dietitian_agent-&gt;memorize</title>
+<path fill="none" stroke="#cccccc" d="M522.97,-85.36C531.67,-88.93 540.18,-93.41 547.46,-99 570.33,-116.57 562.62,-133.06 583.46,-153 599.63,-168.47 620.71,-181.71 638.84,-191.52"></path>
+</g>
+<!-- nutiritions_calculator_agent -->
+<g id="node10" class="node">
+<title>nutiritions_calculator_agent</title>
+<path fill="none" stroke="#cccccc" d="M762.02,-90C762.02,-90 595.46,-90 595.46,-90 589.46,-90 583.46,-84 583.46,-78 583.46,-78 583.46,-66 583.46,-66 583.46,-60 589.46,-54 595.46,-54 595.46,-54 762.02,-54 762.02,-54 768.02,-54 774.02,-60 774.02,-66 774.02,-66 774.02,-78 774.02,-78 774.02,-84 768.02,-90 762.02,-90"></path>
+<text text-anchor="middle" x="678.74" y="-67.8" font-family="Times,serif" font-size="14.00" fill="#cccccc">🤖 nutiritions_calculator_agent</text>
+</g>
+<!-- dietitian_agent&#45;&gt;nutiritions_calculator_agent -->
+<g id="edge12" class="edge">
+<title>dietitian_agent-&gt;nutiritions_calculator_agent</title>
+<path fill="none" stroke="#cccccc" d="M547.87,-72C559.45,-72 571.46,-72 583.29,-72"></path>
+</g>
+<!-- nutrition_tool -->
+<g id="node11" class="node">
+<title>nutrition_tool</title>
+<path fill="none" stroke="#cccccc" d="M721.99,-36C721.99,-36 635.49,-36 635.49,-36 629.49,-36 623.49,-30 623.49,-24 623.49,-24 623.49,-12 623.49,-12 623.49,-6 629.49,0 635.49,0 635.49,0 721.99,0 721.99,0 727.99,0 733.99,-6 733.99,-12 733.99,-12 733.99,-24 733.99,-24 733.99,-30 727.99,-36 721.99,-36"></path>
+<text text-anchor="middle" x="678.74" y="-13.8" font-family="Times,serif" font-size="14.00" fill="#cccccc">🔧 nutrition_tool</text>
+</g>
+<!-- dietitian_agent&#45;&gt;nutrition_tool -->
+<g id="edge14" class="edge">
+<title>dietitian_agent-&gt;nutrition_tool</title>
+<path fill="none" stroke="#cccccc" d="M521.17,-58.3C552.37,-50.27 591.7,-40.15 623.13,-32.06"></path>
+</g>
+<!-- monitoring_agent&#45;&gt;memorize -->
+<g id="edge16" class="edge">
+<title>monitoring_agent-&gt;memorize</title>
+<path fill="none" stroke="#cccccc" d="M306.28,-418.67C366.48,-435.48 471.4,-454.56 547.46,-413 621.32,-372.64 659.51,-270.51 672.51,-228.49"></path>
+</g>
+<!-- feedback_agent&#45;&gt;memorize -->
+<g id="edge18" class="edge">
+<title>feedback_agent-&gt;memorize</title>
+<path fill="none" stroke="#cccccc" d="M333.09,-247.83C420.35,-238.25 562.11,-222.69 633.58,-214.85"></path>
+</g>
+</g>
+</svg>
