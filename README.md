@@ -54,7 +54,7 @@ Each stage involves a **team of specialized agents** working collaboratively to 
 
 ## 🏛️ Agent Architecture
 
-**Heracles.AI Multi-Agent Architecture**
+**Heracles.AI Multi-Agent Folder Structure**
 
 ```
 heracles_ai/
@@ -183,12 +183,12 @@ heracles_ai/
 
    - Set the following environment variables:
 
-     ```
+     ```bash
      GOOGLE_GENAI_USE_VERTEXAI=1
      GOOGLE_CLOUD_PROJECT=__YOUR_CLOUD_PROJECT_ID__
      GOOGLE_CLOUD_LOCATION=us-central1
      GOOGLE_CLOUD_STORAGE_BUCKET=YOUR_BUCKET_NAME_HERE
-     HERACLES_AI_SCENARIO=eval/user_profile_empty_default.json
+     HERACLES_AI_SCENARIO=eval/program_empty_default.json
      ```
 
 4. **Authenticate your Google account:**
@@ -204,7 +204,7 @@ heracles_ai/
      ```
 
    - Copy the activation path from the output:
-     ```powershell
+     ```bash
      & "C:\Users\user\AppData\Local\pypoetry\Cache\virtualenvs\heracles-x2DohdsY-py3.12\Scripts\activate.ps1"
      ```
 
@@ -217,7 +217,7 @@ heracles_ai/
 
 - **Google API Errors (Missing Keys)**  
   Set environment variables manually:
-  ```powershell
+  ```bash
   $env:GOOGLE_GENAI_USE_VERTEXAI = "1"
   $env:GOOGLE_CLOUD_PROJECT = "your-gcp-project-id"
   $env:GOOGLE_CLOUD_LOCATION = "your-gcp-region"
