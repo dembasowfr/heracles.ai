@@ -1,7 +1,10 @@
 
 # 📋 Heracles.AI — Your Personal Health and Fitness Coach
 
-This sample demonstrates the use of the **Agent Development Kit (ADK)** to deliver a new user experience for individuals seeking to improve their health and fitness.
+![Heracles.AI](general-architecture..png)
+
+Heracles.AI is a **multi-agent system** designed to assist users in achieving their health and fitness goals. It provides personalized coaching, nutrition advice, and progress tracking through a collaborative network of specialized agents.
+
 
 A cohort of specialized agents mimics the experience of having a personal health and fitness coach, guiding users through their wellness journey:
 
