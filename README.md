@@ -17,6 +17,8 @@ This example illustrates the use of **ADK-supported tools** such as **Google Sea
 
 ## 📖 Overview
 
+<img src="heracles-ai-architecture.svg" alt="Heracles.AI Overview" width="600"/>
+
 A user's health and fitness journey can be divided into several stages:
 
 1. **Onboarding**

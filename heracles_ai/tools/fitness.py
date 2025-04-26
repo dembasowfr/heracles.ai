@@ -20,7 +20,6 @@ import google.adk.tools as ToolContext
 import requests
 import os
 # --- Add import for the helper function ---
-from heracles_ai.shared_libraries.wger_api import fetch_wger_data, WGER_API_KEY, ENGLISH_LANGUAGE_ID
 
 def fitness_tool(query: str, tool_context: ToolContext) -> Dict[str, str]:
     """
