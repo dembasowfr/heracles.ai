@@ -28,8 +28,7 @@ A user's health and fitness journey can be divided into several stages:
 Each stage involves a **team of specialized agents** working collaboratively to provide a comprehensive coaching experience:
 
 - **Onboarding stage**: Agents gather the user's goals, fitness level, dietary restrictions, lifestyle, and available resources.
-- **Planning stage**: Personalized workout routines, nutrition plans, and well-being strategies are generated.
-- **Execution stage**: Agents support during workouts, answer questions, and provide motivation.
+- **Planning stage**: Personalized workout routines, nutrition plans, and well-being strategies are generated. This agent uses 2 other sub-agents **Dietitian** and **Coach** agents.
 - **Progress Monitoring stage**: Agents track progress and suggest adjustments.
 - **Feedback stage**: Agents gather insights and refine future plans.
 
@@ -62,21 +61,15 @@ heracles_ai/
 │   ├── __pycache__/
 │   ├── coach/
 │   ├── dietitian/
-│   ├── in_program/
-│   ├── motivation/
+│   ├── feedback/
+│   ├── monitoring/
 │   ├── onboarding/
 │   ├── planning/
-│   ├── post_program/
-│   ├── pre_program/
 │   └── __init__.py
 └── tools/
     ├── __pycache__/
     ├── __init__.py
-    ├── conversion.py
-    ├── exercise.py
     ├── fitness.py
-    ├── food.py
-    ├── logging.py
     ├── memory.py
     ├── nutrition.py
     ├── search.py

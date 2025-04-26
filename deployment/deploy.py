@@ -12,13 +12,13 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-"""Deployment script for Travel Concierge."""
+"""Deployment script for Heracles.ai."""
 
 import os
 
 from absl import app, flags
 from dotenv import load_dotenv
-from travel_concierge.agent import root_agent
+from heracles_ai.agent import root_agent
 import vertexai
 from vertexai import agent_engines
 from vertexai.preview.reasoning_engines import AdkApp
@@ -31,7 +31,7 @@ flags.DEFINE_string("bucket", None, "GCP bucket.")
 flags.DEFINE_string(
     "initial_states_path",
     None,
-    "Relative path to the initial state file, .e.g eval/itinerary_empty_default.json",
+    "Relative path to the initial state file, .e.g eval/program_empty_default.json",
 )
 flags.DEFINE_string("map_key", None, "API Key for Google Places API")
 
@@ -63,7 +63,7 @@ def create(env_vars: dict[str, str]) -> None:
             "requests (>=2.32.3,<3.0.0)",
         ],
         extra_packages=[
-            "./travel_concierge",  # The main package
+            "./heracles_ai",  # The main package
             "./eval",  # The initial state files
         ],
     )
@@ -106,9 +106,9 @@ def main(argv: list[str]) -> None:
     initial_states_path = (
         FLAGS.initial_states_path
         if FLAGS.initial_states_path
-        else os.getenv("TRAVEL_CONCIERGE_SCENARIO")
+        else os.getenv("heracles_ai_SCENARIO")
     )
-    env_vars["TRAVEL_CONCIERGE_SCENARIO"] = initial_states_path
+    env_vars["heracles_ai_SCENARIO"] = initial_states_path
     map_key = (
         FLAGS.initial_states_path
         if FLAGS.initial_states_path
@@ -132,7 +132,7 @@ def main(argv: list[str]) -> None:
         print("Missing required environment variable: GOOGLE_CLOUD_STORAGE_BUCKET")
         return
     elif not initial_states_path:
-        print("Missing required environment variable: TRAVEL_CONCIERGE_SCENARIO")
+        print("Missing required environment variable: HERACLES_SCENARIO")
         return
     elif not map_key:
         print("Missing required environment variable: GOOGLE_PLACES_API_KEY")
