@@ -19,7 +19,7 @@ from typing import Dict
 import google.adk.tools as ToolContext
 
 # Placeholder function for the nutrition tool
-def nutrition(query: str, tool_context: ToolContext) -> Dict[str, str]:
+def nutrition_tool(query: str, tool_context: ToolContext) -> Dict[str, str]:
     """
     (Simulated) Gets meal and snack suggestions aligned with dietary needs and goals.
 

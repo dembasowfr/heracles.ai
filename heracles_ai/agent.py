@@ -29,6 +29,8 @@ from heracles_ai.tools.memory import _load_precreated_profile
 # TODO(b/336705178): Import and register tools.
 # TODO(b/336705178): Implement before_agent_callback if needed for initial state loading.
 
+from heracles_ai.sub_agents.coach.agent import coach_agent  # Import the actual fitness tool
+from heracles_ai.sub_agents.dietitian.agent import dietitian_agent  # Import the actual nutrition tool
 
 
 root_agent = Agent(
@@ -40,6 +42,8 @@ root_agent = Agent(
         onboarding_agent,
         # Add other sub-agents here as needed
         planning_agent,
+        coach_agent,
+        dietitian_agent,
     ],
     before_agent_callback=_load_precreated_profile,
 )

@@ -26,3 +26,20 @@ PROGRAM_DATETIME = "program_datetime"
 
 START_DATE = "start_date"
 END_DATE = "end_date"
+
+
+# Activity level multipliers for TDEE calculation
+ACTIVITY_MULTIPLIERS = {
+    "sedentary": 1.2,         # Little or no exercise
+    "lightly_active": 1.375,   # Light exercise/sports 1-3 days/week
+    "moderately_active": 1.55, # Moderate exercise/sports 3-5 days/week
+    "very_active": 1.725,     # Hard exercise/sports 6-7 days a week
+    "extra_active": 1.9       # Very hard exercise/sports & physical job
+}
+
+# Calorie adjustments based on goal
+GOAL_ADJUSTMENTS = {
+    "lose_weight": -500,    # Deficit for weight loss
+    "maintain_weight": 0,   # No adjustment for maintenance
+    "gain_weight": 500      # Surplus for weight gain
+}
