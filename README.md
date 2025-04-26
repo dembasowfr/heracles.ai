@@ -1,6 +1,6 @@
 # 📋 Heracles.AI — Your Personal Health and Fitness Coach
 
-![Heracles.AI](general-architecture.png)
+![Heracles.AI](general-architecture.jpg)
 
 Heracles.AI is a **multi-agent system** designed to assist users in achieving their health and fitness goals. It provides personalized coaching, nutrition advice, and progress tracking through a collaborative network of specialized agents.
 
