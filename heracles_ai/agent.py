@@ -31,19 +31,26 @@ from heracles_ai.tools.memory import _load_precreated_profile
 
 from heracles_ai.sub_agents.coach.agent import coach_agent  # Import the actual fitness tool
 from heracles_ai.sub_agents.dietitian.agent import dietitian_agent  # Import the actual nutrition tool
+from heracles_ai.sub_agents.monitoring.agent import monitoring_agent # Import the monitoring agent
+from heracles_ai.sub_agents.feedback.agent import feedback_agent # Import the feedback agent
 
+from heracles_ai.tools.memory import memorize  # Only import the specific tool needed
 
 root_agent = Agent(
-    model="gemini-2.0-flash-001",
+    model="gemini-2.0-flash-001", # Updated model
     name="root_agent",
     description="Heracles.ai: A Health and Fitness Coach using the services of multiple sub-agents",
     instruction=prompt.ROOT_AGENT_INSTR,
     sub_agents=[
         onboarding_agent,
-        # Add other sub-agents here as needed
         planning_agent,
         coach_agent,
         dietitian_agent,
+        monitoring_agent, # Added monitoring agent
+        feedback_agent,   # Added feedback agent
+    ],
+    tools=[
+        memorize
     ],
     before_agent_callback=_load_precreated_profile,
 )
