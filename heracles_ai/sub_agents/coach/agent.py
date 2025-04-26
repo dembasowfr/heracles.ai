@@ -21,7 +21,7 @@
 from . import prompt
 from heracles_ai.tools.memory import memorize  # Only import the specific tool needed
 # Import necessary tools
-from heracles_ai.tools.fitness import fitness
+from heracles_ai.tools.fitness import fitness_tool
 
 from google.adk.agents import Agent
 
@@ -36,6 +36,6 @@ coach_agent = Agent(
     ],
     tools=[
         memorize,  # Register the memorize tool
-        fitness,  # Use actual fitness_tool
+        fitness_tool,  # Use actual fitness_tool
     ],
 )

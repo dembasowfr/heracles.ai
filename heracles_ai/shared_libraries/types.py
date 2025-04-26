@@ -25,6 +25,17 @@ json_response_config = types.GenerateContentConfig(
     response_mime_type="application/json"
 )
 
+class CaloriesMacros(BaseModel):
+    """A calories and macros breakdown."""
+    calories: int = Field(description="Total calories")
+    protein: int = Field(description="Total protein in grams")
+    carbs: int = Field(description="Total carbs in grams")
+    fat: int = Field(description="Total fat in grams")
+    fiber: int = Field(description="Total fiber in grams")
+    sugar: int = Field(description="Total sugar in grams")
+    sodium: int = Field(description="Total sodium in milligrams")
+    cholesterol: int = Field(description="Total cholesterol in milligrams")
+    saturated_fat: int = Field(description="Total saturated fat in grams")
 
 class Room(BaseModel):
     """A room for selection."""
